@@ -6,6 +6,7 @@ import (
 	"crypto/sha256"
 	"flag"
 	"fmt"
+	"github.com/MichaelTJones/walk"
 	"io"
 	"io/ioutil"
 	"log"
@@ -13,7 +14,6 @@ import (
 	"sort"
 	"sync"
 	"time"
-	"walk"
 )
 
 //
